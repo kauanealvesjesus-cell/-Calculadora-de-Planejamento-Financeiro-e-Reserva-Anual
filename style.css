@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef3fa;
+    color: #222;
+}
+
+header {
+    background-color: #315b91;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    width: 95%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.painel,
+.resultado {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #315b91;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    background-color: #315b91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #203f69;
+}
+
+.destaque {
+    background-color: #dce9fa;
+    border-left: 5px solid #315b91;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.destaque h2 {
+    color: #1c6c3b;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.tabela-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 750px;
+}
+
+th {
+    background-color: #aebbd0;
+    color: #111;
+    padding: 14px;
+    border: 1px solid #ccc;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #c5d0df;
+    background-color: #e7effb;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #d8e3f3;
+}
+
+tbody tr:hover td {
+    background-color: #c4d7f2;
+}
+
+footer {
+    background-color: #315b91;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .painel,
+    .resultado {
+        padding: 15px;
+    }
+}
